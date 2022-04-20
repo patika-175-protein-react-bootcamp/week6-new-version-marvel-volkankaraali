@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # [live demo](https://react-marvelapp.netlify.app/)
 
 Week6 Marvel Exercise New Version
