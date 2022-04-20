@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Card({ data }) {
-  console.log(data);
   return (
     <Link to={`detail/${data.id}`}>
       <div className="card">

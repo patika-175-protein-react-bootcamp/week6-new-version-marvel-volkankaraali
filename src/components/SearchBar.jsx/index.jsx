@@ -32,7 +32,8 @@ function SearchBar() {
   const findCharacterByInput = (input, limit) => {
     //api is require an input and limit for display suggestion list.
     //if input is not empty that will request to api for characters
-    if (input !== '') {
+    //if input char length bigger than 1 that will be request
+    if (input !== '' && input.length > 1) {
       setLoading(true);
       setEmptyResult(false);
 
@@ -70,6 +71,14 @@ function SearchBar() {
                 loading ? <div className='suggestionItem'>{t('loading')}</div>
                   : (emptyResult ? <div className='suggestionItem'>{t('characterNotFound')}</div> : suggestions.map((item, i) => <div className='suggestionItem' key={i}> <Link to={`detail/${item.id}`}>{t('characterName')}: {item.name}</Link>  </div>))
               }
+            </div>
+          )
+        }
+
+        {
+          emptyResult && (
+            <div className='suggestions'>
+              <div className='suggestionItem'>{t('characterNotFound')}</div>
             </div>
           )
         }
