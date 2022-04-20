@@ -1,16 +1,13 @@
+<<<<<<< HEAD
 # [live demo](https://react-marvelapp.netlify.app/)
 
-# week3 case
+Week6 Marvel Exercise New Version
 
-https://developer.marvel.com/ API ını kullanarak geçen hafta ki çalışmanızı devam ettirmeniz istenmektedir.
+Özelikle dikkat etmenizi istediğimiz noktalar
 
-**HEDEF** : Bir React.JS projesi içerisinde API a istek atarak belirli dataları göstermek ve sayfalamak.
+1. Auto complete (Arama alanı için)
+2. Detail page (Arama alanında çıkan sonuçlardan birine tıklanınca veya sayfadaki itemlardan birine tıklanınca)
+3. Multi Language (İngilizce, Türkçe, Fransızca)
 
-**İsterler**
-++ Api üzerinde bulunan pagination yapısı ile projenizde pagination yapmanız istenmektedir. Her sayfa değişiminde istek atılarak o sayfaya ait data gelecektir. Ancak geri dönüldüğünde **local storage % session storage** üzerinden data alınması sağlanmalıdır. Sayfada geri dönüldüğünde istek atılmamalıdır.
+Deadline - 24.04.2022 10:00
 
-++ useEffect, useState hooks kullanımına özen gösterilmelidir.
-
-++ Axios kullanmanız önerilir.
-
-++ CSS, HTML, JS ile devam edeceğiz. Projenizde ekstra CSS sablonları v.s kullanmayınız.
